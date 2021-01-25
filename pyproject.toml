@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "openapi-schema-validator"
+version = "0.1.0"
+description = "A fork that excludes GPL-3 code"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+isodate = "^0.6.0"
+jsonschema = "^3.2.0"
+six = "^1.15.0"
+rfc3339-validator = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+mock = "==2.0.0"
+pytest = "==3.5.0"
+pytest-flake8 = "^1.0.7"
+pytest-cov = "==2.5.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
